@@ -50,6 +50,16 @@ export function Board() {
           r={25}
           color="#fff"
         />
+        {i > 4 && (
+          <RoundedRect
+            x={i * 50}
+            y={j * 50}
+            width={50}
+            height={50}
+            r={25}
+            color="#aaa"
+          />
+        )}
       </Group>
     </Canvas>
   )
