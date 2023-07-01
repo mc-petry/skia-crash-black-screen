@@ -1,7 +1,7 @@
 import { registerRootComponent } from 'expo'
 import { StatusBar } from 'expo-status-bar'
 import { StyleSheet, View } from 'react-native'
-import { Board } from './components/board'
+import { Board } from './src/components/board'
 
 export default function App() {
   return (

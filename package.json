@@ -3,8 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "packageManager": "pnpm@8.5.0+",
-  "__main": "node_modules/expo/AppEntry.js",
-  "main": "src/app.tsx",
+  "main": "App.tsx",
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
